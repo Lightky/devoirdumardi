@@ -1,0 +1,235 @@
+.menu{
+    display: flex;
+    background-color: #000000;
+    background-image: url(./assets/img/fancy-pants.jpg);
+    background-position: flex;
+    background-size: cover;
+    color: #ffffff;
+    white-space: pre-line;
+}
+a, a:link, a:visited  {
+    color:#fff;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+header {
+    display:flex;
+    padding: 0 100px;
+    margin-top: -10px;
+
+
+}
+
+#casque{
+    width: 30%;
+    margin-top: 10px;
+}
+
+.navbar {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+
+
+}
+.sousliste {
+    padding:0;
+}
+.titleLi a{
+    font-size: 2em;
+
+}
+.titleLi {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-family: vt323;
+    font-size:20px ;
+}
+p#rblsvsemp{
+    margin-top: 1em;
+    margin-left: -1em;
+    color: #ffffff;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-gap: 0px;
+    height: 150vh;
+    width: 100%;
+    grid-template-rows: 1fr, 0.3fr, 1fr, 1fr, 1fr;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-template-areas:
+    "item1 item1 item1 item1"
+    "item2 item2 item2 item2"
+    "item3 item3 item3 item3"
+
+    ;
+}
+.item1{
+    display: flex;
+    background-image: url(./assets/img/WallpaperDog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    justify-content: center;
+    grid-area: item1;
+    overflow: hidden;
+    position: relative;
+}
+.item1 img{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: -100px;
+    margin-left: 200px;
+    margin-right: 150px;
+    justify-content: center;
+    text-align: justify;
+    width: 120px;
+    height: 210px;
+}
+.item2{
+    display: flex;
+    grid-area: item2;
+    overflow: hidden;
+    position: relative; 
+    background-image: url(./assets/img/fancy-pants.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.text{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 110px;
+    margin-right: 70em;
+    margin-left: 50px;
+    text-align: center;
+}
+.item3{
+    display: flex;
+    text-align: center;
+    border: #000000 1px solid;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.welcome h1{
+    color: #cf5b0d;
+}
+.item3 p{
+    text-align: left;
+}
+.welcome u{
+    color: blue;
+}
+.item3 img{
+    margin: 50px;
+    width: 200px;
+}
+
+.lastest{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.lastest h2{
+    color: rgb(255, 98, 0);
+}
+
+.textes{
+    justify-content: center;
+}
+
+.our{
+    padding: 0px;
+    display: block;
+    margin-top: 120px;
+    margin-left: 0;
+}
+h2{
+    margin: 50px;
+    margin-left: -10px;
+    color: #cf5b0d;
+}
+.Flexi h2 video{ 
+    color: #cf5b0d;
+    flex-direction: column;
+    margin-top: -50px;
+
+}
+video{
+    width: 580px;
+}
+
+.item4{
+    color: #ffffff;
+    display: flex;
+    background-image: url(./assets/img/WallpaperDog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item4{
+    grid-area: item4;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    white-space: pre;
+}
+hr{
+    border: 3px solid white;
+
+}
+.where img{
+    display: inline-flex;
+    margin-left: 0%;
+    white-space: pre;
+    
+}
+
+.inputer{
+    margin-top: -5em;
+    margin-left: -40em;
+}
+.user{
+    margin-top: -50px;
+    margin-left: -4em
+}
+.form_line2{
+    margin-top: -95px;
+    margin-left: -4em;
+}
+.send {
+    margin-top: -100px;
+    margin-left: -47px;
+}
+.casque1{
+    margin-top: -3em;
+    margin-right: -25em;
+    margin-left: 25em;
+
+}
+.casque2{
+    margin-top: 3em;
+    margin-right: -10em;
+    margin-left: 15em;
+}
